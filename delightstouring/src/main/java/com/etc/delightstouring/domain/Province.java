@@ -12,6 +12,7 @@ import java.io.Serializable;
 public class Province implements Serializable {
     private Integer pId;// 省份编号
     private String pName;// 省份名称
+    private String in;
 
     public Province(Integer pId, String pName) {
         this.pId = pId;

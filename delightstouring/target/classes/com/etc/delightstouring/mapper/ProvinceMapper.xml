@@ -31,4 +31,8 @@
     <select id="findProvinceByName" parameterType="string" resultType="Province">
         select * from province where p_name = #{pname}
     </select>
+    <!--查：查询所有省份信息-->
+    <select id="findAllProvince" resultType="Province">
+        select * from province
+    </select>
 </mapper>
